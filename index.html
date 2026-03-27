@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACRYNOX</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ───── NAVBAR ───── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">ACR<span>Y</span>NOX</a>
+      <button class="burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ───── HERO ───── -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="scanlines"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content reveal">
+      <div class="hero-badge">⬡ DIGITAL SOLUTIONS</div>
+      <h1 class="hero-title">ACR<span class="red">Y</span>NOX</h1>
+      <p class="hero-tagline">Built in Code. <span class="red">Fueled by Fire.</span></p>
+      <p class="hero-sub">We engineer digital experiences that burn through the noise.</p>
+      <div class="hero-cta-group">
+        <a href="#services" class="btn btn-primary">Explore Services</a>
+        <a href="#work" class="btn btn-ghost">View Work</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ───── SERVICES ───── -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">// WHAT WE DO</span>
+        <h2>Our <span class="red">Services</span></h2>
+        <p>Precision-crafted solutions for the digital frontier.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal" data-delay="0">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="8" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 20l-6 4 6 4M32 20l6 4-6 4M22 30l4-12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Website Development</h3>
+          <p>High-performance, visually stunning websites engineered for conversion and built to dominate search.</p>
+          <div class="card-tag">WEB DEV</div>
+        </div>
+
+        <div class="service-card reveal" data-delay="150">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 6v4M24 38v4M6 24h4M38 24h4M10.1 10.1l2.8 2.8M35.1 35.1l2.8 2.8M35.1 10.1l-2.8 2.8M12.9 35.1l-2.8 2.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Logo &amp; Poster Design</h3>
+          <p>Iconic brand identities and visual assets that make you impossible to ignore across every platform.</p>
+          <div class="card-tag">DESIGN</div>
+        </div>
+
+        <div class="service-card reveal" data-delay="300">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 12h32M8 20h20M8 28h24M8 36h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="38" cy="32" r="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M38 29v3l2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Discord Server Dev</h3>
+          <p>Fully-customized Discord ecosystems with bots, roles, automated flows, and engagement-first architecture.</p>
+          <div class="card-tag">DISCORD</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── PORTFOLIO ───── -->
+  <section class="portfolio" id="work">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">// OUR WORK</span>
+        <h2>Selected <span class="red">Projects</span></h2>
+        <p>A glimpse into the digital worlds we've built.</p>
+      </div>
+      <div class="portfolio-grid">
+
+        <div class="portfolio-item reveal" data-delay="0">
+          <div class="portfolio-img" style="background: linear-gradient(135deg, #1a0000 0%, #3d0000 50%, #0d0d0d 100%);">
+            <div class="portfolio-pattern p1"></div>
+            <div class="portfolio-overlay">
+              <span class="p-tag">WEB</span>
+              <h4>NexusTech Platform</h4>
+              <p>SaaS Dashboard UI</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-delay="100">
+          <div class="portfolio-img" style="background: linear-gradient(135deg, #0a0a1a 0%, #1a0030 50%, #050505 100%);">
+            <div class="portfolio-pattern p2"></div>
+            <div class="portfolio-overlay">
+              <span class="p-tag">DESIGN</span>
+              <h4>Void Brand Identity</h4>
+              <p>Logo &amp; Visual System</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-delay="200">
+          <div class="portfolio-img" style="background: linear-gradient(135deg, #001a0a 0%, #003020 50%, #050505 100%);">
+            <div class="portfolio-pattern p3"></div>
+            <div class="portfolio-overlay">
+              <span class="p-tag">DISCORD</span>
+              <h4>CipherHub Server</h4>
+              <p>2,000+ Member Community</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-delay="0">
+          <div class="portfolio-img" style="background: linear-gradient(135deg, #1a1000 0%, #2d2000 50%, #050505 100%);">
+            <div class="portfolio-pattern p4"></div>
+            <div class="portfolio-overlay">
+              <span class="p-tag">WEB</span>
+              <h4>ArcFlame Agency</h4>
+              <p>Landing Page &amp; SEO</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-delay="100">
+          <div class="portfolio-img" style="background: linear-gradient(135deg, #1a0010 0%, #300020 50%, #050505 100%);">
+            <div class="portfolio-pattern p5"></div>
+            <div class="portfolio-overlay">
+              <span class="p-tag">DESIGN</span>
+              <h4>Pulse Event Posters</h4>
+              <p>Campaign Visual Design</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-delay="200">
+          <div class="portfolio-img" style="background: linear-gradient(135deg, #00101a 0%, #001828 50%, #050505 100%);">
+            <div class="portfolio-pattern p6"></div>
+            <div class="portfolio-overlay">
+              <span class="p-tag">DISCORD</span>
+              <h4>StrikeForce Guild</h4>
+              <p>Gaming Community Bot</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── STATS ───── -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid reveal">
+        <div class="stat">
+          <span class="stat-num" data-target="120">0</span><span class="red">+</span>
+          <p>Projects Delivered</p>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="98">0</span><span class="red">%</span>
+          <p>Client Satisfaction</p>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="40">0</span><span class="red">K+</span>
+          <p>Discord Members Served</p>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="3">0</span><span class="red">+</span>
+          <p>Years in the Game</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── CONTACT ───── -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">// GET IN TOUCH</span>
+        <h2>Let's <span class="red">Connect</span></h2>
+        <p>Ready to ignite your digital presence? Reach us anywhere.</p>
+      </div>
+      <div class="contact-cards reveal">
+
+        <a href="https://discord.com" target="_blank" class="contact-card discord">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.001.022.014.043.031.056a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">Discord</span>
+            <span class="contact-handle">ACRYNOX#0001</span>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
+
+        <a href="https://instagram.com" target="_blank" class="contact-card instagram">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">Instagram</span>
+            <span class="contact-handle">@acrynox</span>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
+
+        <a href="https://wa.me/" target="_blank" class="contact-card whatsapp">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.554 4.123 1.526 5.855L.057 23.886l6.197-1.625A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 0 1-5.006-1.37l-.36-.214-3.717.975.99-3.617-.235-.372A9.76 9.76 0 0 1 2.182 12C2.182 6.574 6.574 2.182 12 2.182S21.818 6.574 21.818 12 17.426 21.818 12 21.818z"/></svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">WhatsApp</span>
+            <span class="contact-handle">Chat with us</span>
+          </div>
+          <div class="contact-arrow">→</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">ACR<span>Y</span>NOX</a>
+          <p>Built in Code. Fueled by Fire.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 ACRYNOX. All rights reserved.</span>
+        <span class="footer-dot">⬡</span>
+        <span>Engineered with precision.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
