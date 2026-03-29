@@ -143,44 +143,10 @@ body.hovering .cursor-ring {
 [data-delay="150"] { transition-delay: .15s !important; }
 [data-delay="200"] { transition-delay: .2s !important; }
 [data-delay="300"] { transition-delay: .3s !important; }
-.hero-title {
-  line-height: 0.85; /* reduce more */
-  display: inline-block;
-}
+
 /* ═══════════════════════════
    NAVBAR
 ═══════════════════════════ */
-.nav-logo-img {
-    height: 100px; /* reduce this */
-    width: auto;
-}
-.navbar {
-    height: 70px; /* before maybe 100+ irukum */
-    padding: 0 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.nav-links {
-    display: flex;
-    gap: 30px; /* spacing between HOME, SERVICES */
-    align-items: center;
-}
-
-.nav-links a {
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-.navbar {
-    backdrop-filter: blur(800px);
-    background: rgba(0, 0, 0, 0.6);
-}
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* important */
-    padding: 0 40px;
-}
 .navbar {
   position: fixed; top: 0; left: 0; right: 0;
   z-index: 1000;
